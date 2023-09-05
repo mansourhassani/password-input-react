@@ -37,6 +37,10 @@ body {
 	padding: 5px;
 	direction: ltr;
 }
+.input-fields input[type='password']::-ms-reveal,
+.input-fields input[type='password']::-ms-clear {
+	display: none;
+}
 .input-fields span {
 	cursor: pointer;
 }

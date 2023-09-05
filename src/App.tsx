@@ -1,12 +1,13 @@
-import { IoAirplaneOutline } from 'react-icons/io5';
+import { FaEye } from 'react-icons/fa6';
 function App() {
 	return (
-		<div className="App">
-			تست
-			<button type="button" className="btn btn-success">
-				Success
-			</button>
-			<IoAirplaneOutline />
+		<div className="wrapper">
+			<div className="input-fields">
+				<span>
+					<FaEye />
+				</span>
+				<input type="password" />
+			</div>
 		</div>
 	);
 }
